@@ -6,7 +6,7 @@
 
 ### Project Overview
 
-This project consists of a wall-mounted device capable of detecting blood alcohol concentration (BAC) through breath analysis. The goal was to create a functional prototype for **Industrial Safety**, ensuring a hazard-free work environment by preventing machinery operation under the influence.
+This report presents an innovative automated system for detecting and controlling Blood Alcohol Concentration (BAC) in industrial environments. Designed to mitigate operational risks, the system utilizes Arduino technology and an MQ-3 gas sensor to analyze exhaled breath in real-time. Acting as a preventive access control mechanism, it automatically denies entry or triggers alarms when safety thresholds are exceeded. This solution aligns with ISO 45001 standards, ILO guidelines, and Dominican Ministry of Labor regulations, ensuring a controlled, risk-free workspace while protecting both personnel and infrastructure.
 
 ### Key Features
 
@@ -74,3 +74,21 @@ To transition this prototype into a market-ready industrial product, the followi
 2.  **IoT & Database Integration:**
     * Implement a serial communication system (using Python/SQL) to send sensor data to a central computer.
     * **Goal:** Create a **digital log** that registers the Employee ID, Time, and BAC Level automatically. This allows HR and Safety Managers to audit compliance and generate safety reports.
+
+  ---
+
+### References & Research Background
+The development of this prototype was grounded in extensive research regarding industrial safety standards and occupational risk prevention. The following sources were **instrumental in establishing the critical importance of automated BAC monitoring** to prevent workplace accidents, ensure compliance, and protect human lives in corporate environments.
+
+1.  **O. I. Grigoreva and F. V. Nikolaeva**, "Breathalyzer for enterprise access control system," April. [Online]. Available: [Link](https://panor.ru/en/articles/breathalyzer-for-enterprise-access-control-system/95371.html#)
+2.  **B. C. Dessbessel, C. N. Dorneles, D. Amorim, S. M. Rhoden, and L. L. de Oliveira**, "Bafômetro automotivo: modelo funcional e de baixo custo usando Arduino," *Brazilian J. Dev.*, vol. 6, no. 7, pp. 51900–51907, 2020. DOI: 10.34117/bjdv6n7-729.
+3.  **A. Slemeyer**, "A NEW BREATHALYSER FOR INDUSTRIAL USE," 1978. [Online]. Available: [Consensus App](https://consensus.app/papers/a-new-breathalyser-for-industrial-use-slemeyer/935d1c543f7f59dfb4cc206ec08c0d76/)
+4.  **F. Mustafa, M. Carhart, and S. Andreescu**, "A 3D-Printed Breath Analyzer Incorporating CeO2 Nanoparticles for Colorimetric Enzyme-Based Ethanol Sensing," *ACS Appl. Nano Mater.*, 2021. DOI: 10.1021/acsanm.1c01826.
+5.  **E. Yousif, D. Alali, S. Aldakhl, and M. Zohdy**, "Use of Vehicle Breathalyzers in the Reduction of DUI Deaths," *2021 IEEE Int. IOT, Electron. Mechatronics Conf.*, pp. 1–8, 2021. DOI: 10.1109/IEMTRONICS52119.2021.9422629.
+6.  **R. Borkenstein and H. Smith**, "The Breathalyzer and its Applications," *Med. Sci. Law*, vol. 2, pp. 13–22, 1961. DOI: 10.1177/002580246200200103.
+7.  **J. Terrones**, "Diseño e implementación de un sistema de monitoreo y control operativo de alcoholemia para la empresa Galvanoplastia Yhabal S.A.C.," 2019.
+8.  **R. Granelli, Z. M. Kovacs-Vajna, and F. Torricelli**, "No Title," *Wiley Online Library*, 2025. [Online]. Available: [Wiley Library](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202410499)
+9.  **P. Olabisi and B. Taiwo**, "Stemming Alcohol-Based Industrial Fatalities Through Enhanced Breathalyser Sensitivity," *IARJSET*, vol. 8, Apr. 2021. DOI: 10.17148/IARJSET.2021.8439.
+10. **K. Chiranjeevi, N. Swapna, P. Sowjanya, M. Akshitha, and M. K. Sri**, "Factory Worker Alcohol Detector with Automatic Machine Shutdown," *Int. J. Adv. Res. Sci. Commun. Technol.*, vol. 4, no. 6, 2024. [Online]. Available: [PDF](https://ijarsct.co.in/Paper17689.pdf)
+11. **Y. Cho, W. Lee, H. Sin, S. Oh, K. C. Choi, and J.-H. Jun**, "Non-Invasive Alcohol Concentration Measurement Using a Spectroscopic Module: Outlook for the Development of a Drunk Driving Prevention System," 2024. DOI: 10.3390/s24072252.
+12. **A. A. Khamis et al.**, "Development and Performance Evaluation of an IoT-Integrated Breath Analyzer," *Int. J. Environ. Res. Public Health*, vol. 20, no. 2, Jan. 2023. DOI: 10.3390/ijerph20021319.
