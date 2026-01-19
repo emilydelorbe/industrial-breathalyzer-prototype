@@ -6,7 +6,7 @@
 
 ### Project Overview
 
-This report presents an innovative automated system for detecting and controlling Blood Alcohol Concentration (BAC) in industrial environments. Designed to mitigate operational risks, the system utilizes Arduino technology and an MQ-3 gas sensor to analyze exhaled breath in real-time. Acting as a preventive access control mechanism, it automatically denies entry or triggers alarms when safety thresholds are exceeded. This solution aligns with ISO 45001 standards, ILO guidelines, and Dominican Ministry of Labor regulations, ensuring a controlled, risk-free workspace while protecting both personnel and infrastructure.
+This report presents an innovative automated system for detecting and controlling Blood Alcohol Concentration (BAC) in industrial environments. Designed to mitigate operational risks, the system utilizes Arduino technology and an MQ-3 gas sensor to analyze exhaled breath in real-time. Acting as a preventive access control mechanism, it automatically denies entry or triggers alarms when safety thresholds are exceeded. This solution aligns with ISO 45001 standards, ILO guidelines, and Dominican Republic Ministry of Labor regulations, ensuring a controlled, risk-free workspace while protecting both personnel and infrastructure.
 
 **3D Model / Concept**
 <br>
