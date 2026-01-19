@@ -2,9 +2,11 @@
 A safety-focused hardware prototype designed to monitor alcohol levels in industrial environments.
 
 Project Overview
+
 This project consists of a wall-mounted device capable of detecting blood alcohol concentration (BAC) through breath analysis. The goal was to create a functional prototype for industrial safety, ensuring a hazard-free work environment by preventing machinery operation under the influence.
 
 Features
+
 Non-Contact Detection: Sanitary design for multiple users.
 
 Visual/Audio Alerts: Traffic light system (Green/Red) and buzzer for pass/fail results.
@@ -12,6 +14,7 @@ Visual/Audio Alerts: Traffic light system (Green/Red) and buzzer for pass/fail r
 Wall-Mounted Design: Engineered for fixed installation at entry points.
 
 Tech Stack & Hardware
+
 Microcontroller: [Ej. Arduino Uno / ESP32]
 
 Sensors: [Ej. MQ-3 Alcohol Gas Sensor]
