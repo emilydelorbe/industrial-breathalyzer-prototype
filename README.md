@@ -8,6 +8,15 @@
 
 This report presents an innovative automated system for detecting and controlling Blood Alcohol Concentration (BAC) in industrial environments. Designed to mitigate operational risks, the system utilizes Arduino technology and an MQ-3 gas sensor to analyze exhaled breath in real-time. Acting as a preventive access control mechanism, it automatically denies entry or triggers alarms when safety thresholds are exceeded. This solution aligns with ISO 45001 standards, ILO guidelines, and Dominican Ministry of Labor regulations, ensuring a controlled, risk-free workspace while protecting both personnel and infrastructure.
 
+**3D Model / Concept**
+<br>
+<img width="743" alt="foto-modelo-3D" src="https://github.com/user-attachments/assets/63d88e57-6319-4a19-8324-87cba2c496c7" />
+
+**Functional Prototype**
+<br>
+![foto-resultado-alc](https://github.com/user-attachments/assets/3a63135f-64bd-40ef-9159-8f4db4226395)
+
+
 ### Key Features
 
 * **Non-Contact Detection:** Sanitary design allowing multiple users without physical contact.
@@ -36,19 +45,6 @@ Based on the `alcoholimetro.ino` source code, the components are mapped as follo
 | **Blue LED** | Digital Pin 11 | **CLEAR:** No alcohol detected (BAC < 0.01). |
 | **Buzzer** | Digital Pin 12 | **ALARM:** Triggers for 15s when result is "NO APTO". |
 | **OLED Display (SH1106)** | I2C Pins (SDA/SCL) | Displays BAC value, Status text, and Alarm timer. |
-
----
-
-### Gallery
-
-
-**3D Model / Concept**
-<br>
-<img width="743" alt="foto-modelo-3D" src="https://github.com/user-attachments/assets/63d88e57-6319-4a19-8324-87cba2c496c7" />
-
-**Functional Prototype**
-<br>
-![foto-resultado-alc](https://github.com/user-attachments/assets/3a63135f-64bd-40ef-9159-8f4db4226395)
 
 ---
 
