@@ -31,9 +31,9 @@ Based on the `alcoholimetro.ino` source code, the components are mapped as follo
 |-----------|---------------------|----------|
 | **MQ-3 Sensor (Analog)** | Pin A0 | Reads raw alcohol concentration data. |
 | **Red LED** | Digital Pin 8 | **NO APTO:** Critical Alert (BAC ≥ 0.05). |
-| **Yellow LED** | Digital Pin 9 | **PRECAUTION:** High Warning (BAC ≥ 0.03). |
-| **Green LED** | Digital Pin 10 | **MODERATE:** Low Warning (BAC ≥ 0.01). |
-| **Blue LED** | Digital Pin 11 | **FREE/SAFE:** No alcohol detected (BAC < 0.01). |
+| **Yellow LED** | Digital Pin 9 | **PRECAUCION:** High Warning (BAC ≥ 0.03). |
+| **Green LED** | Digital Pin 10 | **MODERADO:** Low Warning (BAC ≥ 0.01). |
+| **Blue LED** | Digital Pin 11 | **LIBRE:** No alcohol detected (BAC < 0.01). |
 | **Buzzer** | Digital Pin 12 | **ALARM:** Triggers for 15s when result is "NO APTO". |
 | **OLED Display (SH1106)** | I2C Pins (SDA/SCL) | Displays BAC value, Status text, and Alarm timer. |
 
