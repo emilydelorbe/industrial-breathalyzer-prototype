@@ -13,6 +13,7 @@ Visual/Audio Alerts: Traffic light system (Green/Red) and buzzer for pass/fail r
 
 Wall-Mounted Design: Engineered for fixed installation at entry points.
 
+
 Tech Stack & Hardware
 
 Microcontroller: [Ej. Arduino Uno / ESP32]
@@ -23,6 +24,7 @@ Output: [Ej. LCD Display 16x2, LEDs, Buzzer]
 
 Logic: C++ (Arduino IDE) & Circuit Design.
 
+
 Gallery
 
 
@@ -32,6 +34,7 @@ Gallery
 ![foto-resultado-alc](https://github.com/user-attachments/assets/3a63135f-64bd-40ef-9159-8f4db4226395)
 
 How it Works
+
 The sensor warms up for stability.
 
 User blows near the sensor (no contact required).
