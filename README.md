@@ -21,7 +21,11 @@ Output: [Ej. LCD Display 16x2, LEDs, Buzzer]
 Logic: C++ (Arduino IDE) & Circuit Design.
 
 Gallery
+
+
 <img width="743" height="395" alt="foto-modelo-3D" src="https://github.com/user-attachments/assets/63d88e57-6319-4a19-8324-87cba2c496c7" />
+
+
 ![foto-resultado-alc](https://github.com/user-attachments/assets/3a63135f-64bd-40ef-9159-8f4db4226395)
 
 How it Works
